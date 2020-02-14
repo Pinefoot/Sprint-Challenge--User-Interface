@@ -359,6 +359,16 @@ button {
     padding-bottom: 2%;
     padding-left: 7%;
     padding-right: 7%;
+    
+}
+
+button:hover{
+    background-color: rgb(177, 177, 177);
+    padding-left: 10%;
+    padding-right: 10%;
+    transition-duration: .5s;
+    
+
 }
 
 /*Lets work together section*/
@@ -379,3 +389,33 @@ button {
     justify-content: space-evenly;
     align-items: center;
 }
+
+
+/*Adding breakpoint media queries*/
+
+@media (max-width: 1000px){
+    .first2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        align-content: center;
+        padding: 25px;
+        margin-right: 12%;
+        margin-left: 11%;
+    }
+
+    .second2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        align-content: center;
+        padding: 25px;
+        margin-right: 12%;
+        margin-left: 11%;
+    }
+
+
+
+}    
