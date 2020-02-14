@@ -386,7 +386,7 @@ button:hover{
 
 .footerAbout {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     align-items: center;
 }
 
